@@ -1,0 +1,15 @@
+﻿<Window x:Class="FaceTrackingBasics.Aplikacje"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Aplikacje" Height="200" Width="640" WindowStyle="None" ResizeMode="NoResize" Loaded="Window_Loaded" AllowsTransparency="True" Background="#FF29A176" Opacity="0">
+    <Grid>
+        <Image Height="150" HorizontalAlignment="Left" Margin="506,33,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/FaceTrackingBasics;component/bin/x86/Debug/images/ukryj1.png" MouseDown="image1_MouseDown" MouseEnter="image1_MouseEnter" MouseLeave="image1_MouseLeave" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="12,33,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/FaceTrackingBasics;component/bin/x86/Debug/images/klawiatura1.png" MouseDown="image2_MouseDown" MouseEnter="image2_MouseEnter" MouseLeave="image2_MouseLeave" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="133,33,0,0" Name="image3" Stretch="Fill" VerticalAlignment="Top" Width="100" Source="/FaceTrackingBasics;component/bin/x86/Debug/images/kalkulator1.png" MouseDown="image3_MouseDown" MouseEnter="image3_MouseEnter" MouseLeave="image3_MouseLeave" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="254,33,0,0" Name="image4" Source="/FaceTrackingBasics;component/bin/x86/Debug/images/lista1.png" Stretch="Fill" VerticalAlignment="Top" Width="100" MouseDown="image4_MouseDown" MouseEnter="image4_MouseEnter" MouseLeave="image4_MouseLeave" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="375,33,0,0" Name="image5" Source="/FaceTrackingBasics;component/bin/x86/Debug/images/internet1.png" Stretch="Fill" VerticalAlignment="Top" Width="100" MouseEnter="image5_MouseEnter" MouseLeave="image5_MouseLeave" MouseDown="image5_MouseDown" />
+    </Grid>
+    <Window.Foreground>
+        <SolidColorBrush />
+    </Window.Foreground>
+</Window>
